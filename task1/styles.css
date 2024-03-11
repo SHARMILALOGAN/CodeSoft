@@ -1,0 +1,96 @@
+body {
+  font-family: sans-serif;  /* Sets the default font for the entire page */
+  margin: 0;                 
+  padding: 0;                }
+
+.header {
+  background-color: #f0f0f0;  
+  padding: 20px;              
+  display: flex;             
+  align-items: center;     
+  justify-content: space-between; 
+}
+
+.header img {
+  width: 150px; 
+  height: 100px;            
+}
+
+h1 {
+  margin-bottom: 0;           
+  font-size: 2em;             
+}
+
+p {
+  font-size: 1.2em;          
+  margin: 5px 0;             
+}
+
+.main {
+  padding: 50px;              
+}
+
+.hero {
+  text-align: center;        
+  margin-bottom: 50px;       
+}
+
+.hero img {
+  width: 100%;               
+}
+
+.benefits {
+  text-align: center;        
+  margin-bottom: 50px;        
+}
+
+.benefits h3 {
+  font-size: 1.5em;           
+  margin-bottom: 20px;        
+}
+
+.benefits ul {
+  list-style: none;          
+  padding: 0;                
+  margin: 0;                 
+}
+
+.benefits li {
+  display: flex;            
+  align-items: center;       
+  margin-bottom: 20px;        
+}
+
+.benefits li img {
+  width: 250px;
+  height :200px;               
+  margin-right: 20px;         
+}
+
+.benefits li p {
+  font-size: 1em;             
+}
+
+.cta {
+  text-align: center;        
+  margin-top: 50px;           
+}
+
+.btn {
+  background-color: #3498db;   
+  color: white;               
+  padding: 10px 20px;          
+  border: none;              
+  border-radius: 5px;         
+  font-size: 1em;             
+  cursor: pointer;           
+  text-decoration: none;      
+}
+
+.btn:hover {
+  background-color: #2980b9;   
+}
+
+.footer {
+  background-color: #f0f
+}
